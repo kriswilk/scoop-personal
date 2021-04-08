@@ -24,6 +24,6 @@
         "regex": "id=\"v([\\d.]+)\""
     },
     "autoupdate": {
-        "url": "https://www.den4b.com/download/shutter/portable/$version?token=scoop#/dl.zip"
+        "url": "https://www.den4b.com/download/hasher/portable/$version?token=scoop#/dl.zip"
     }
 }
