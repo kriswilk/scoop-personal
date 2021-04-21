@@ -1,10 +1,11 @@
 {
     "version": "3.1.0.33266",
-    "description": "Manipulate text and data with light-weight patterns",
-    "homepage": "https://nimbletext.com",
+    "description": "Text manipulation and code generation tool.",
+    "homepage": "https://nimbletext.com/",
     "license": "Unknown",
-    "url": "https://nimbletext.com/download/NimbleText.zip",
-    "hash": "d75c53d497671cd3ec5527bdeddca2621cea7216d52b49c596d2a91c7d61c162",
+    "url": "https://nimbletext.com/Download/NimbleText.exe",
+    "hash": "710ee5e8b449aca2b54c45c426f3e8316da31a78463cae373b40f92a161380f6",
+    "bin": "NimbleText.exe",
     "shortcuts": [
         [
             "NimbleText.exe",
