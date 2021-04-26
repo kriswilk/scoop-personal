@@ -1,0 +1,27 @@
+{
+    "version": "1.6.1",
+    "description": "View Adobe Photoshop Document (PSD and PSB) files in Windows",
+    "homepage": "http://www.ardfry.com/psd-codec/",
+    "license": "Commercial",
+    "url": "http://www.ardfry.com/downloads/PSDCodec-Setup.exe",
+    "hash": "F8BD56115EA15DFB673E7BEE0EA024A71AB526544E7EFB1A22EEAF76DC05C82A",
+    "installer": {
+        "args": [
+            "/DIR=\"$dir\"",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART",
+            "/CLOSEAPPLICATIONS",
+            "/NORESTARTAPPLICATIONS",
+            "/SP-"
+        ]
+    },
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ]
+    }
+}
