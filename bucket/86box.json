@@ -1,7 +1,7 @@
 {
     "version": "3.11",
     "description": "Emulator of x86-based machines based on PCem..",
-    "homepage": "https://86box.net",
+    "homepage": "https://github.com/86Box/86Box",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
@@ -14,7 +14,8 @@
         }
     },
     "suggest": {
-        "ROM set": "scoop-personal/86box-romset"
+        "86Box Manager": "scoop-personal/86box-manager",
+        "86Box ROM set": "scoop-personal/86box-romset"
     },
     "bin": "86Box.exe",
     "shortcuts": [
@@ -24,7 +25,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/86Box/86Box",
+        "github",
         "regex": "v([\\d\\.]+)/86Box-Windows-64-b(?<build>\\d+).zip"
     },
     "autoupdate": {
