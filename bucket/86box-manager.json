@@ -1,5 +1,5 @@
 {
-    "version": "1.7.4",
+    "version": "1.7.3",
     "description": "A configuration manager for the 86Box emulator.",
     "homepage": "https://github.com/86Box/86BoxManager",
     "license": "MIT",
