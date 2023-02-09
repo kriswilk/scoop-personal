@@ -25,7 +25,7 @@
         ]
     ],
     "checkver": {
-        "github",
+        "github": "https://github.com/86Box/86Box",
         "regex": "86Box-Windows-64-b(?<build>\\d+)\\.zip"
     },
     "autoupdate": {
