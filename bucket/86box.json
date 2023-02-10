@@ -25,8 +25,8 @@
         ]
     ],
  "checkver": {
-        "url": "https://github.com/86Box/86Box/releases/latest",
-        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.]+)"
+        "github": "https://github.com/86Box/86Box",
+        "regex": "\/v(?<version>[\\d.]+)\/86Box-Windows-64-b(?<build>\\d+)\.zip"
     },
     "autoupdate": {
         "architecture": {
