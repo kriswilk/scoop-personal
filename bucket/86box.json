@@ -24,17 +24,18 @@
             "86Box"
         ]
     ],
- "checkver": {
-        "github": "https://github.com/86Box/86Box",
-        "regex": "\/v(?<version>[\\d.]+)\/86Box-Windows-64-b(?<build>\\d+)\\.zip"
+    "checkver": {
+        "url": "https://api.github.com/repos/86Box/86Box/releases/latest",
+        "jsonpath": "$.assets[*].browser_download_url",
+        "regex": "v(?<version>[\\d.]+)\/86Box-Windows-64-b(?<build>\\d+)\.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/86Box/86Box/releases/download/v$version/86Box-Windows-64-b$matchBuild.zip"
+                "url": "https://github.com/86Box/86Box/releases/download/v$matchVersion/86Box-Windows-64-b$matchBuild.zip"
             },
             "32bit": {
-                "url": "https://github.com/86Box/86Box/releases/download/v$version/86Box-Windows-32-b$matchBuild.zip"
+                "url": "https://github.com/86Box/86Box/releases/download/v$matchVersion/86Box-Windows-32-b$matchBuild.zip"
             }
         }
     }
