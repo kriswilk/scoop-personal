@@ -5,12 +5,12 @@
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "",
-            "hash": ""
+            "url": "https://github.com/86Box/86Box/releases/download/v3.10/86Box-Windows-64-b1234.zip",
+            "hash": "12345"
         },
         "32bit": {
-            "url": "",
-            "hash": ""
+            "url": "https://github.com/86Box/86Box/releases/download/v3.10/86Box-Windows-64-b1234.zip",
+            "hash": "12345"
         }
     },
     "suggest": {
