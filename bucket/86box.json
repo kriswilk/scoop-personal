@@ -1,6 +1,6 @@
 {
     "version": "3.10",
-    "description": "Emulator of x86-based machines based on PCem..",
+    "description": "Emulator of x86-based machines based on PCem.",
     "homepage": "https://github.com/86Box/86Box",
     "license": "GPL-2.0",
     "architecture": {
